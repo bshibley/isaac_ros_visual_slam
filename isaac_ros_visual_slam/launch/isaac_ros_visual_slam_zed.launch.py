@@ -29,7 +29,7 @@ from launch_ros.descriptions import ComposableNode
 def generate_launch_description():
     """Launch file which brings up visual slam node configured for RealSense."""
     # The zed camera mode name. zed, zed2, zed2i, zedm, zedx or zedxm
-    camera_model = 'zed2'
+    camera_model = 'zed'
 
     visual_slam_node = ComposableNode(
         name='visual_slam_node',
